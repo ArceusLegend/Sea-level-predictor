@@ -4,7 +4,7 @@ from scipy.stats import linregress
 
 def draw_plot():
     # Read data from file
-    df = pd.read_csv('numpy_pandas\data\epa-sea-level.csv')
+    df = pd.read_csv('epa-sea-level.csv') # Change the filepath as needed
 
     # Extract the year portion from the 'Year' column
     # Will make the x axis of our plot cleaner as it won't be as cluttered
